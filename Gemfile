@@ -8,6 +8,7 @@ gem 'rails', '3.2.6'
 gem 'sqlite3'
 gem 'haml'
 gem 'haml-rails'
+gem 'bootstrap-sass'
 
 
 # Gems used only for assets and not required

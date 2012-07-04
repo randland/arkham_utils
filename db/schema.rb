@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120704063954) do
+ActiveRecord::Schema.define(:version => 20120704071920) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -47,9 +47,13 @@ ActiveRecord::Schema.define(:version => 20120704063954) do
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
   create_table "expansions", :force => true do |t|
-    t.string  "name"
-    t.integer "year"
-    t.boolean "big_box"
+    t.string   "name"
+    t.integer  "year"
+    t.boolean  "big_box"
+    t.string   "icon_file_name"
+    t.string   "icon_content_type"
+    t.integer  "icon_file_size"
+    t.datetime "icon_updated_at"
   end
 
 end

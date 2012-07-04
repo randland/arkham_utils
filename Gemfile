@@ -10,6 +10,7 @@ gem 'haml'
 gem 'haml-rails'
 
 gem 'activeadmin'
+gem 'paperclip'
 
 # Gems used only for assets and not required
 # in production environments by default.

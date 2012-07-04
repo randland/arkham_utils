@@ -47,11 +47,9 @@ ActiveRecord::Schema.define(:version => 20120704063954) do
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
   create_table "expansions", :force => true do |t|
-    t.string   "name"
-    t.string   "year"
-    t.boolean  "big_box"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string  "name"
+    t.integer "year"
+    t.boolean "big_box"
   end
 
 end

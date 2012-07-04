@@ -21,4 +21,5 @@ ActiveAdmin.register Expansion do
     end
     f.buttons
   end
+
 end

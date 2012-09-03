@@ -27,12 +27,14 @@ end
 
 # Gems used only in testing and development
 group :test, :development do
-  gem "rspec-rails", "~> 2.0"
-  gem "factory_girl"
-  gem "shoulda"
+  gem 'rspec-rails', "~> 2.0"
+  gem 'factory_girl'
+  gem 'shoulda'
+  gem 'fuubar'
 
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
+  gem 'fuubar-cucumber'
 end
 
 gem 'jquery-rails'

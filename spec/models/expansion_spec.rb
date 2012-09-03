@@ -1,8 +1,10 @@
 require 'spec_helper'
 
-describe 'Expansion' do
+describe Expansion do
+  it { should validate_presence_of(:name) }
+
   describe 'Factory' do
     subject { build :expansion }
-    its(:name) { should == 'Test Expansion' }
+    it { should be_valid }
   end
 end

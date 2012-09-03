@@ -7,10 +7,13 @@ development:
   <<: *common
   database: arkham_utils_development
 
-test:
+test: &test
   <<: *common
   database: arkham_utils_test
 
 production:
   <<: *common
   database: arkham_utils_production
+
+cucumber:
+  <<: *test

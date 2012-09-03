@@ -3,4 +3,5 @@ class Expansion < ActiveRecord::Base
   has_attached_file :icon, styles: { thumb: '24x20>' }
   has_many :investigators
   validates_presence_of :name, :year
+  validates_uniqueness_of :name
 end

@@ -1,6 +1,8 @@
 FactoryGirl.define do
+  sequence(:name) { |n| "Test Expansion #{n}" }
+
   factory :expansion do
-    name 'Test Expansion'
+    name
     year 2000
   end
 end

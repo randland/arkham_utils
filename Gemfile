@@ -25,6 +25,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+# Gems used only in testing and development
+group :test, :development do
+  gem "rspec-rails", "~> 2.0"
+end
+
 gem 'jquery-rails'
 
 gem 'debugger'

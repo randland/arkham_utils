@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Dir.glob(Rails.root.join('db/seeds/*.rb')).each do |seed|
+  YAML.load_file(seed).each &:save!
+end

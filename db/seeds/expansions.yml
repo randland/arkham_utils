@@ -1,0 +1,91 @@
+---
+- !ruby/object:Expansion
+  attributes:
+    id: 1
+    name: Arkham Horror
+    year: 2005
+    big_box: true
+    icon_file_name: Blank.gif
+    icon_content_type: image/gif
+    icon_file_size: 43
+- !ruby/object:Expansion
+  attributes:
+    id: 2
+    name: Curse of the Dark Pharaoh
+    year: 2006
+    big_box: false
+    icon_file_name: DarkPharoahIcon.png
+    icon_content_type: image/png
+    icon_file_size: 439
+- !ruby/object:Expansion
+  attributes:
+    id: 3
+    name: Dunwich Horror
+    year: 2006
+    big_box: true
+    icon_file_name: DunwichHorrorIcon.png
+    icon_content_type: image/png
+    icon_file_size: 751
+- !ruby/object:Expansion
+  attributes:
+    id: 4
+    name: The King in Yellow
+    year: 2007
+    big_box: false
+    icon_file_name: KingInYellowIcon.png
+    icon_content_type: image/png
+    icon_file_size: 405
+- !ruby/object:Expansion
+  attributes:
+    id: 5
+    name: Kingsport Horror
+    year: 2008
+    big_box: true
+    icon_file_name: KingsportIcon.png
+    icon_content_type: image/png
+    icon_file_size: 749
+- !ruby/object:Expansion
+  attributes:
+    id: 6
+    name: The Black Goat of the Woods
+    year: 2008
+    big_box: false
+    icon_file_name: BlackGoatIcon.png
+    icon_content_type: image/png
+    icon_file_size: 573
+- !ruby/object:Expansion
+  attributes:
+    id: 7
+    name: Innsmouth Horror
+    year: 2009
+    big_box: true
+    icon_file_name: InnsmouthIcon.png
+    icon_content_type: image/png
+    icon_file_size: 570
+- !ruby/object:Expansion
+  attributes:
+    id: 8
+    name: The Lurker at the Threshold
+    year: 2010
+    big_box: false
+    icon_file_name: LurkerIcon.png
+    icon_content_type: image/png
+    icon_file_size: 352
+- !ruby/object:Expansion
+  attributes:
+    id: 9
+    name: The Curse of the Dark Pharaoh (Revised Edition)
+    year: 2011
+    big_box: false
+    icon_file_name: DarkPharoahRIcon.png
+    icon_content_type: image/png
+    icon_file_size: 683
+- !ruby/object:Expansion
+  attributes:
+    id: 10
+    name: Miskatonic Horror
+    year: 2011
+    big_box: true
+    icon_file_name: Miskatonic_icon.png
+    icon_content_type: image/png
+    icon_file_size: 784

@@ -29,10 +29,10 @@ end
 group :test, :development do
   gem 'rspec-rails', "~> 2.0"
   gem 'factory_girl_rails'
-  gem 'shoulda'
+  gem 'shoulda', require: false
   gem 'fuubar'
 
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'fuubar-cucumber'
 end

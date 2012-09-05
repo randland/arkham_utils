@@ -8,6 +8,7 @@ class Expansion < ActiveRecord::Base
     url: '/system/:class/:attachment/:style/:basename.:extension'
 
   has_many :investigators
+  has_many :neighborhoods
 
   validates_presence_of :name, :year
   validates_uniqueness_of :name

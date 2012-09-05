@@ -1,91 +1,81 @@
 ---
-- !ruby/object:Expansion
-  attributes:
-    id: 1
-    name: Arkham Horror
-    year: 2005
-    big_box: true
-    icon_file_name: Blank.gif
-    icon_content_type: image/gif
-    icon_file_size: 43
-- !ruby/object:Expansion
-  attributes:
-    id: 2
-    name: Curse of the Dark Pharaoh
-    year: 2006
-    big_box: false
-    icon_file_name: DarkPharoahIcon.png
-    icon_content_type: image/png
-    icon_file_size: 439
-- !ruby/object:Expansion
-  attributes:
-    id: 3
-    name: Dunwich Horror
-    year: 2006
-    big_box: true
-    icon_file_name: DunwichHorrorIcon.png
-    icon_content_type: image/png
-    icon_file_size: 751
-- !ruby/object:Expansion
-  attributes:
-    id: 4
-    name: The King in Yellow
-    year: 2007
-    big_box: false
-    icon_file_name: KingInYellowIcon.png
-    icon_content_type: image/png
-    icon_file_size: 405
-- !ruby/object:Expansion
-  attributes:
-    id: 5
-    name: Kingsport Horror
-    year: 2008
-    big_box: true
-    icon_file_name: KingsportIcon.png
-    icon_content_type: image/png
-    icon_file_size: 749
-- !ruby/object:Expansion
-  attributes:
-    id: 6
-    name: The Black Goat of the Woods
-    year: 2008
-    big_box: false
-    icon_file_name: BlackGoatIcon.png
-    icon_content_type: image/png
-    icon_file_size: 573
-- !ruby/object:Expansion
-  attributes:
-    id: 7
-    name: Innsmouth Horror
-    year: 2009
-    big_box: true
-    icon_file_name: InnsmouthIcon.png
-    icon_content_type: image/png
-    icon_file_size: 570
-- !ruby/object:Expansion
-  attributes:
-    id: 8
-    name: The Lurker at the Threshold
-    year: 2010
-    big_box: false
-    icon_file_name: LurkerIcon.png
-    icon_content_type: image/png
-    icon_file_size: 352
-- !ruby/object:Expansion
-  attributes:
-    id: 9
-    name: The Curse of the Dark Pharaoh (Revised Edition)
-    year: 2011
-    big_box: false
-    icon_file_name: DarkPharoahRIcon.png
-    icon_content_type: image/png
-    icon_file_size: 683
-- !ruby/object:Expansion
-  attributes:
-    id: 10
-    name: Miskatonic Horror
-    year: 2011
-    big_box: true
-    icon_file_name: Miskatonic_icon.png
-    icon_content_type: image/png
-    icon_file_size: 784
+arkham-horror:
+  name: Arkham Horror
+  year: 2005
+  big_box: true
+  icon_file_name: Blank.gif
+  icon_content_type: image/gif
+  icon_file_size: 43
+  icon_updated_at: 2012-09-05 08:04:35.025275000 Z
+curse-of-the-dark-pharaoh:
+  name: Curse of the Dark Pharaoh
+  year: 2006
+  big_box: false
+  icon_file_name: DarkPharoahIcon.png
+  icon_content_type: image/png
+  icon_file_size: 439
+  icon_updated_at: 2012-09-05 08:06:44.919459000 Z
+curse-of-the-dark-pharaoh-revised-edition:
+  name: Curse of the Dark Pharaoh (Revised Edition)
+  year: 2011
+  big_box: false
+  icon_file_name: DarkPharoahRIcon.png
+  icon_content_type: image/png
+  icon_file_size: 683
+  icon_updated_at: 2012-09-05 08:11:48.691324000 Z
+dunwich-horror:
+  name: Dunwich Horror
+  year: 2006
+  big_box: true
+  icon_file_name: DunwichHorrorIcon.png
+  icon_content_type: image/png
+  icon_file_size: 751
+  icon_updated_at: 2012-09-05 08:07:10.020142000 Z
+innsmouth-horror:
+  name: Innsmouth Horror
+  year: 2009
+  big_box: true
+  icon_file_name: InnsmouthIcon.png
+  icon_content_type: image/png
+  icon_file_size: 570
+  icon_updated_at: 2012-09-05 08:09:24.976463000 Z
+kingsport-horror:
+  name: Kingsport Horror
+  year: 2008
+  big_box: true
+  icon_file_name: KingsportIcon.png
+  icon_content_type: image/png
+  icon_file_size: 749
+  icon_updated_at: 2012-09-05 08:08:14.372156000 Z
+miskatonic-horror:
+  name: Miskatonic Horror
+  year: 2011
+  big_box: true
+  icon_file_name: Miskatonic_icon.png
+  icon_content_type: image/png
+  icon_file_size: 784
+  icon_updated_at: 2012-09-05 08:12:01.954400000 Z
+the-black-goat-of-the-woods:
+  name: The Black Goat of the Woods
+  year: 2008
+  big_box: false
+  icon_file_name: BlackGoatIcon.png
+  icon_content_type: image/png
+  icon_file_size: 573
+  icon_updated_at: 2012-09-05 08:08:39.042321000 Z
+the-king-in-yellow:
+  name: The King in Yellow
+  year: 2007
+  big_box: false
+  icon_file_name: KingInYellowIcon.png
+  icon_content_type: image/png
+  icon_file_size: 405
+  icon_updated_at: 2012-09-05 08:07:31.015448000 Z
+the-lurker-at-the-threshold:
+  name: The Lurker at the Threshold
+  year: 2010
+  big_box: false
+  icon_file_name: LurkerIcon.png
+  icon_content_type: image/png
+  icon_file_size: 352
+  icon_updated_at: 2012-09-05 08:09:44.988946000 Z

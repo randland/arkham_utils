@@ -1,0 +1,46 @@
+---
+blessing:
+  name: Blessing
+  icon_file_name: BlessingIcon.png
+  icon_content_type: image/png
+  icon_file_size: 993
+clue:
+  name: Clue
+  icon_file_name: ClueIcon.png
+  icon_content_type: image/png
+  icon_file_size: 711
+common-item:
+  name: Common Item
+  icon_file_name: CommonIcon.png
+  icon_content_type: image/png
+  icon_file_size: 721
+money:
+  name: Money
+  icon_file_name: MoneyIcon.png
+  icon_content_type: image/png
+  icon_file_size: 1026
+sanity:
+  name: Sanity
+  icon_file_name: SanityIcon.png
+  icon_content_type: image/png
+  icon_file_size: 983
+skill:
+  name: Skill
+  icon_file_name: SkillIcon.png
+  icon_content_type: image/png
+  icon_file_size: 966
+spell:
+  name: Spell
+  icon_file_name: SpellIcon.png
+  icon_content_type: image/png
+  icon_file_size: 956
+stamina:
+  name: Stamina
+  icon_file_name: StaminaIcon.png
+  icon_content_type: image/png
+  icon_file_size: 1051
+unique-item:
+  name: Unique Item
+  icon_file_name: UniqueIcon.png
+  icon_content_type: image/png
+  icon_file_size: 837

@@ -5,6 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Dir.glob(Rails.root.join('db/seeds/*.rb')).each do |seed|
-  YAML.load_file(seed).each &:save!
+require 'active_record/fixtures'
+require 'randland/seed_factory'
+
+seeds = Dir.glob(Rails.root.join('db/seeds/*')).map {|path| File.basename(path).gsub /\.yml/, ''}
+seeds.each do |seed|
+  ActiveRecord::Fixtures.create_fixtures(Rails.root.join('db/seeds'), seed)
 end

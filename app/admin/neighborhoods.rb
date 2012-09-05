@@ -8,11 +8,11 @@ ActiveAdmin.register Neighborhood do
   config.clear_sidebar_sections!
 
   index do
-    column 'Expansion' do |inv|
-      if inv.expansion.present?
-        link_to image_tag(inv.expansion.icon.url(:thumb),
-                          title: inv.expansion.name),
-                admin_expansion_path(inv.expansion)
+    column 'Expansion' do |nbhd|
+      if nbhd.expansion.present?
+        link_to image_tag(nbhd.expansion.icon.url(:thumb),
+                          title: nbhd.expansion.name),
+                admin_expansion_path(nbhd.expansion)
       end
     end
     column :name

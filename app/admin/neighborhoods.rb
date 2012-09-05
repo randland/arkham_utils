@@ -1,4 +1,10 @@
 ActiveAdmin.register Neighborhood do
+  controller do
+    def scoped_collection
+      end_of_association_chain.order :expansion_id, :name
+    end
+  end
+
   index do
     column 'Expansion' do |inv|
       if inv.expansion.present?

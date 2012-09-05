@@ -5,6 +5,8 @@ ActiveAdmin.register Neighborhood do
     end
   end
 
+  config.clear_sidebar_sections!
+
   index do
     column 'Expansion' do |inv|
       if inv.expansion.present?

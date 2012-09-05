@@ -1,4 +1,10 @@
 ActiveAdmin.register Investigator do
+  controller do
+    def scoped_collection
+      end_of_association_chain.order :name
+    end
+  end
+
   index do
     column 'Expansion' do |inv|
       if inv.expansion.present?

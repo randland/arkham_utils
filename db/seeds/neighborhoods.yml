@@ -1,0 +1,58 @@
+---
+backwoods-country:
+  name: Backwoods Country
+  expansion: dunwich-horror
+blasted-heath:
+  name: Blasted Heath
+  expansion: dunwich-horror
+central-hill:
+  name: Central Hill
+  expansion: kingsport-horror
+church-green:
+  name: Church Green
+  expansion: innsmouth-horror
+downtown:
+  name: Downtown
+  expansion: arkham-horror
+easttown:
+  name: Easttown
+  expansion: arkham-horror
+factory-district:
+  name: Factory District
+  expansion: innsmouth-horror
+french-hill:
+  name: French Hill
+  expansion: arkham-horror
+harborside:
+  name: Harborside
+  expansion: kingsport-horror
+innsmouth-shore:
+  name: Innsmouth Shore
+  expansion: innsmouth-horror
+kingsport-head:
+  name: Kingsport Head
+  expansion: kingsport-horror
+merchant-district:
+  name: Merchant District
+  expansion: arkham-horror
+miskatonic-university:
+  name: Miskatonic University
+  expansion: arkham-horror
+northside:
+  name: Northside
+  expansion: arkham-horror
+rivertown:
+  name: Rivertown
+  expansion: arkham-horror
+south-shore:
+  name: South Shore
+  expansion: kingsport-horror
+southside:
+  name: Southside
+  expansion: arkham-horror
+uptown:
+  name: Uptown
+  expansion: arkham-horror
+village-commons:
+  name: Village Commons
+  expansion: dunwich-horror

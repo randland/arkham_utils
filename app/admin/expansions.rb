@@ -1,4 +1,10 @@
 ActiveAdmin.register Expansion do
+  controller do
+    def scoped_collection
+      end_of_association_chain.order :year, :name
+    end
+  end
+
   config.clear_sidebar_sections!
 
   index do

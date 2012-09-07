@@ -1,0 +1,343 @@
+---
+607-water-st:
+  name: 607 Water St.
+  stable: true
+  neighborhood: harborside
+  encounter_type_1: spell
+  encounter_type_2: stamina
+7th-house-on-the-left:
+  name: 7th House on the Left
+  stable: true
+  neighborhood: central-hill
+  encounter_type_1: clue
+  encounter_type_2: spell
+administration-building:
+  name: Administration Building
+  stable: true
+  neighborhood: miskatonic-university
+  encounter_type_1: money
+  encounter_type_2: skill
+arkham-asylum:
+  name: Arkham Asylum
+  stable: true
+  neighborhood: downtown
+  encounter_type_1: clue
+  encounter_type_2: sanity
+artists-colony:
+  name: Artists' Colony
+  stable: true
+  neighborhood: south-shore
+  encounter_type_1: sanity
+  encounter_type_2: money
+bank-of-arkham:
+  name: Bank of Arkham
+  stable: true
+  neighborhood: downtown
+  encounter_type_1: blessing
+  encounter_type_2: money
+bishop-s-brook-bridge:
+  name: Bishop's Brook Bridge
+  stable: true
+  neighborhood: village-commons
+  encounter_type_1: money
+  encounter_type_2: unique-item
+black-cave:
+  name: Black Cave
+  stable: false
+  neighborhood: rivertown
+  encounter_type_1: common-item
+  encounter_type_2: spell
+cold-spring-glen:
+  name: Cold Spring Glen
+  stable: false
+  neighborhood: backwoods-country
+  encounter_type_1: blessing
+  encounter_type_2: spell
+congregational-hospital:
+  name: Congregational Hospital
+  stable: true
+  neighborhood: central-hill
+  encounter_type_1: sanity
+  encounter_type_2: stamina
+curiositie-shoppe:
+  name: Curiositie Shoppe
+  stable: true
+  neighborhood: northside
+  encounter_type_1: common-item
+  encounter_type_2: unique-item
+darke-s-carnival:
+  name: Darke's Carnival
+  stable: true
+  neighborhood: village-commons
+  encounter_type_1: sanity
+  encounter_type_2: money
+devil-reef:
+  name: Devil Reef
+  stable: false
+  neighborhood: innsmouth-shore
+  encounter_type_1: clue
+  encounter_type_2: unique-item
+devil-s-hopyard:
+  name: Devil's Hopyard
+  stable: false
+  neighborhood: blasted-heath
+  encounter_type_1: clue
+  encounter_type_2: money
+dunwich-village:
+  name: Dunwich Village
+  stable: true
+  neighborhood: village-commons
+  encounter_type_1: clue
+  encounter_type_2: money
+esoteric-order-of-dagon:
+  name: Esoteric Order of Dagon
+  stable: false
+  neighborhood: church-green
+  encounter_type_1: clue
+  encounter_type_2: blessing
+falcon-point:
+  name: Falcon Point
+  stable: true
+  neighborhood: innsmouth-shore
+  encounter_type_1: clue
+  encounter_type_2: common-item
+first-national-grocery:
+  name: First National Grocery
+  stable: true
+  neighborhood: factory-district
+  encounter_type_1: clue
+  encounter_type_2: common-item
+gardners-place:
+  name: Gardners' Place
+  stable: false
+  neighborhood: blasted-heath
+  encounter_type_1: clue
+  encounter_type_2: stamina
+general-store:
+  name: General Store
+  stable: true
+  neighborhood: rivertown
+  encounter_type_1: common-item
+  encounter_type_2: money
+gilman-house-hotel:
+  name: Gilman House Hotel
+  stable: true
+  neighborhood: factory-district
+  encounter_type_1: sanity
+  encounter_type_2: stamina
+graveyard:
+  name: Graveyard
+  stable: false
+  neighborhood: rivertown
+  encounter_type_1: clue
+  encounter_type_2: unique-item
+hall-school:
+  name: Hall School
+  stable: true
+  neighborhood: south-shore
+  encounter_type_1: clue
+  encounter_type_2: spell
+harney-jones-shack:
+  name: Harney Jones' Shack
+  stable: true
+  neighborhood: blasted-heath
+  encounter_type_1: stamina
+  encounter_type_2: sanity
+hibb-s-roadhouse:
+  name: Hibb's Roadhouse
+  stable: false
+  neighborhood: easttown
+  encounter_type_1: common-item
+  encounter_type_2: money
+historical-society:
+  name: Historical Society
+  stable: false
+  neighborhood: southside
+  encounter_type_1: skill
+  encounter_type_2: spell
+independence-square:
+  name: Independence Square
+  stable: false
+  neighborhood: downtown
+  encounter_type_1: clue
+  encounter_type_2: unique-item
+inner-sanctum:
+  name: Inner Sanctum
+  stable: true
+  neighborhood: french-hill
+  encounter_type_1: 
+  encounter_type_2: 
+innsmouth-jail:
+  name: Innsmouth Jail
+  stable: true
+  neighborhood: church-green
+  encounter_type_1: clue
+  encounter_type_2: common-item
+jail-cell:
+  name: Jail Cell
+  stable: true
+  neighborhood: church-green
+  encounter_type_1: 
+  encounter_type_2: 
+library:
+  name: Library
+  stable: true
+  neighborhood: miskatonic-university
+  encounter_type_1: unique-item
+  encounter_type_2: spell
+ma-s-boarding-house:
+  name: Ma's Boarding House
+  stable: true
+  neighborhood: southside
+  encounter_type_1: ally
+  encounter_type_2: stamina
+marsh-refinery:
+  name: Marsh Refinery
+  stable: false
+  neighborhood: factory-district
+  encounter_type_1: clue
+  encounter_type_2: money
+neil-s-curiosity-shop:
+  name: Neil's Curiosity Shop
+  stable: true
+  neighborhood: south-shore
+  encounter_type_1: clue
+  encounter_type_2: money
+newspaper:
+  name: Newspaper
+  stable: true
+  neighborhood: northside
+  encounter_type_1: clue
+  encounter_type_2: money
+north-point-lighthouse:
+  name: North Point Lighthouse
+  stable: true
+  neighborhood: harborside
+  encounter_type_1: clue
+  encounter_type_2: stamina
+police-station:
+  name: Police Station
+  stable: true
+  neighborhood: easttown
+  encounter_type_1: clue
+  encounter_type_2: common-item
+river-docks:
+  name: River Docks
+  stable: true
+  neighborhood: merchant-district
+  encounter_type_1: common-item
+  encounter_type_2: money
+science-building:
+  name: Science Building
+  stable: false
+  neighborhood: miskatonic-university
+  encounter_type_1: clue
+  encounter_type_2: unique-item
+silver-twilight-lodge:
+  name: Silver Twilight Lodge
+  stable: false
+  neighborhood: french-hill
+  encounter_type_1: clue
+  encounter_type_2: unique-item
+south-church:
+  name: South Church
+  stable: true
+  neighborhood: southside
+  encounter_type_1: blessing
+  encounter_type_2: sanity
+st-erasmus-s-home:
+  name: St. Erasmus's Home
+  stable: true
+  neighborhood: central-hill
+  encounter_type_1: clue
+  encounter_type_2: unique-item
+st-mary-s-hospital:
+  name: St. Mary's Hospital
+  stable: true
+  neighborhood: uptown
+  encounter_type_1: clue
+  encounter_type_2: stamina
+strange-high-house:
+  name: Strange High House
+  stable: true
+  neighborhood: kingsport-head
+  encounter_type_1: common-item
+  encounter_type_2: unique-item
+the-causeway:
+  name: The Causeway
+  stable: true
+  neighborhood: kingsport-head
+  encounter_type_1: spell
+  encounter_type_2: unique-item
+the-rope-and-anchor:
+  name: The Rope and Anchor
+  stable: true
+  neighborhood: harborside
+  encounter_type_1: sanity
+  encounter_type_2: stamina
+the-unnamable:
+  name: The Unnamable
+  stable: false
+  neighborhood: merchant-district
+  encounter_type_1: clue
+  encounter_type_2: unique-item
+the-witch-house:
+  name: The Witch House
+  stable: false
+  neighborhood: french-hill
+  encounter_type_1: clue
+  encounter_type_2: spell
+train-station:
+  name: Train Station
+  stable: true
+  neighborhood: northside
+  encounter_type_1: common-item
+  encounter_type_2: unique-item
+unvisited-isle:
+  name: Unvisited Isle
+  stable: false
+  neighborhood: merchant-district
+  encounter_type_1: clue
+  encounter_type_2: spell
+velma-s-diner:
+  name: Velma's Diner
+  stable: true
+  neighborhood: easttown
+  encounter_type_1: money
+  encounter_type_2: stamina
+whateley-farm:
+  name: Whateley Farm
+  stable: false
+  neighborhood: backwoods-country
+  encounter_type_1: clue
+  encounter_type_2: spell
+wireless-station:
+  name: Wireless Station
+  stable: true
+  neighborhood: kingsport-head
+  encounter_type_1: clue
+  encounter_type_2: stamina
+wizard-s-hill:
+  name: Wizard's Hill
+  stable: false
+  neighborhood: backwoods-country
+  encounter_type_1: money
+  encounter_type_2: spell
+woods:
+  name: Woods
+  stable: false
+  neighborhood: uptown
+  encounter_type_1: common-item
+  encounter_type_2: money
+y-ha-nthlei:
+  name: Y'ha-nthlei
+  stable: false
+  neighborhood: innsmouth-shore
+  encounter_type_1: clue
+  encounter_type_2: unique-item
+ye-olde-magick-shoppe:
+  name: Ye Olde Magick Shoppe
+  stable: true
+  neighborhood: uptown
+  encounter_type_1: spell
+  encounter_type_2: unique-item

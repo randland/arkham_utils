@@ -1,9 +1,5 @@
 ActiveAdmin.register Investigator do
-  controller do
-    def scoped_collection
-      end_of_association_chain.order :name
-    end
-  end
+  config.sort_order = :name
 
   index do
     column 'Expansion' do |inv|

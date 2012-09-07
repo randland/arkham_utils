@@ -8,12 +8,8 @@ ActiveAdmin.register Neighborhood do
   config.clear_sidebar_sections!
 
   index do
-    column 'Expansion' do |nbhd|
-      if nbhd.expansion.present?
-        link_to image_tag(nbhd.expansion.icon.url(:thumb),
-                          title: nbhd.expansion.name),
-                admin_expansion_path(nbhd.expansion)
-      end
+    column 'Expansion', sortable: :'expansions.year' do |nbhd|
+      render 'admin/expansions/icon_link', expansion: nbhd.expansion
     end
     column :name
     default_actions

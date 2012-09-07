@@ -11,7 +11,7 @@ ActiveAdmin.register Neighborhood do
     column 'Expansion', sortable: :'expansions.year' do |nbhd|
       render 'admin/expansions/icon_link', expansion: nbhd.expansion
     end
-    column :name
+    column :name, sortable: :name
     default_actions
   end
 end

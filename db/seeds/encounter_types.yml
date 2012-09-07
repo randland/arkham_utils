@@ -1,4 +1,9 @@
 ---
+ally:
+  name: Ally
+  icon_file_name: AllyIcon.png
+  icon_content_type: image/png
+  icon_file_size: 996
 blessing:
   name: Blessing
   icon_file_name: BlessingIcon.png

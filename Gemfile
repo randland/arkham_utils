@@ -35,6 +35,8 @@ group :test, :development do
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'fuubar-cucumber'
+
+  gem 'colorful'
 end
 
 gem 'jquery-rails'

@@ -1,0 +1,11 @@
+---
+environment-mystic:
+  name: Environment (Mystic)
+environment-urban:
+  name: Environment (Urban)
+environment-weather:
+  name: Environment (Weather)
+headline:
+  name: Headline
+rumor:
+  name: Rumor

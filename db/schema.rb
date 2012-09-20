@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120920054132) do
+ActiveRecord::Schema.define(:version => 20120920064834) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -90,6 +90,10 @@ ActiveRecord::Schema.define(:version => 20120920054132) do
   end
 
   add_index "locations", ["neighborhood_id"], :name => "index_locations_on_neighborhood_id"
+
+  create_table "mythos_types", :force => true do |t|
+    t.string "name"
+  end
 
   create_table "neighborhoods", :force => true do |t|
     t.string  "name"

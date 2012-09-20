@@ -37,6 +37,7 @@ group :test, :development do
   gem 'fuubar-cucumber'
 
   gem 'colorful'
+  gem 'tattletail'
 end
 
 gem 'jquery-rails'

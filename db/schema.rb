@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120920053955) do
+ActiveRecord::Schema.define(:version => 20120920054132) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -47,7 +47,11 @@ ActiveRecord::Schema.define(:version => 20120920053955) do
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
   create_table "dimensional_symbols", :force => true do |t|
-    t.string "name"
+    t.string   "name"
+    t.string   "icon_file_name"
+    t.string   "icon_content_type"
+    t.integer  "icon_file_size"
+    t.datetime "icon_updated_at"
   end
 
   create_table "encounter_types", :force => true do |t|

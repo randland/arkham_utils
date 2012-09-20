@@ -1,11 +1,13 @@
 ActiveAdmin.register EncounterType do
   menu false
 
+  config.sort_order = :name
+
   config.clear_sidebar_sections!
 
   index do
-    column 'Icon', sortable: :'expansions.year' do |expansion|
-      render 'admin/expansions/icon_link', expansion: expansion
+    column 'Icon' do |encounter_type|
+      render 'admin/shared/icon_link_to_edit', resource: encounter_type
     end
     column 'Name', sortable: :name do |encounter_type|
       link_to encounter_type.name, admin_encounter_type_path(encounter_type)

@@ -1,4 +1,6 @@
 ActiveAdmin.register Neighborhood do
+  config.sort_order = :name
+
   config.clear_sidebar_sections!
 
   controller do

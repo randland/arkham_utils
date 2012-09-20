@@ -3,11 +3,7 @@ ActiveAdmin.register Investigator do
 
   index do
     column 'Expansion' do |inv|
-      if inv.expansion.present?
-        link_to image_tag(inv.expansion.icon.url(:thumb),
-                          title: inv.expansion.name),
-                admin_expansion_path(inv.expansion)
-      end
+      render 'admin/shared/icon_link', resource: inv.expansion if inv.expansion.present?
     end
     column :name
     column :occupation

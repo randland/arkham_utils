@@ -1,9 +1,11 @@
 ActiveAdmin.register Expansion do
+  config.sort_order = :year
+
   config.clear_sidebar_sections!
 
   index do
     column 'Icon' do |exp|
-      link_to image_tag(exp.icon.url :thumb), admin_expansion_path(exp) if exp.icon.present?
+      render 'admin/shared/icon_link_to_edit', resource: exp
     end
     column 'Name', sortable: :name do |exp|
       link_to exp.name, admin_expansion_path(exp)

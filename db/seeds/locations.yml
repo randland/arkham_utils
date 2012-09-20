@@ -165,8 +165,8 @@ inner-sanctum:
   name: Inner Sanctum
   stable: true
   neighborhood: french-hill
-  encounter_type_1: 
-  encounter_type_2: 
+  encounter_type_1:
+  encounter_type_2:
 innsmouth-jail:
   name: Innsmouth Jail
   stable: true
@@ -177,8 +177,8 @@ jail-cell:
   name: Jail Cell
   stable: true
   neighborhood: church-green
-  encounter_type_1: 
-  encounter_type_2: 
+  encounter_type_1:
+  encounter_type_2:
 library:
   name: Library
   stable: true

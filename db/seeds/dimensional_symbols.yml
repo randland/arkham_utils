@@ -1,0 +1,46 @@
+---
+circle:
+  name: Circle
+  icon_file_name: DimensionalSymbolCircle.png
+  icon_content_type: image/png
+  icon_file_size: 653
+crescent:
+  name: Crescent
+  icon_file_name: DimensionalSymbolCrescent.png
+  icon_content_type: image/png
+  icon_file_size: 658
+diamond:
+  name: Diamond
+  icon_file_name: DimensionalSymbolDiamond.png
+  icon_content_type: image/png
+  icon_file_size: 625
+hexagon:
+  name: Hexagon
+  icon_file_name: DimensionalSymbolHexagon.png
+  icon_content_type: image/png
+  icon_file_size: 588
+plus:
+  name: Plus
+  icon_file_name: DimensionalSymbolPlus.png
+  icon_content_type: image/png
+  icon_file_size: 650
+slash:
+  name: Slash
+  icon_file_name: DimensionalSymbolSlash.png
+  icon_content_type: image/png
+  icon_file_size: 654
+square:
+  name: Square
+  icon_file_name: DimensionalSymbolSquare.png
+  icon_content_type: image/png
+  icon_file_size: 537
+star:
+  name: Star
+  icon_file_name: DimensionalSymbolStar.png
+  icon_content_type: image/png
+  icon_file_size: 707
+triangle:
+  name: Triangle
+  icon_file_name: DimensionalSymbolTriangle.png
+  icon_content_type: image/png
+  icon_file_size: 696
